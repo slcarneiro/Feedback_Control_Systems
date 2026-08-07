@@ -9,7 +9,7 @@ This project focuses on the analysis and design of feedback control systems usin
 
 ## 🚀 Key Implementations
 1. **Stability Analysis:** Evaluated the stability margins of open-loop transfer functions based on critical gain limits.
-2. **PD Controller Design:** Tuned $K_p$ and $K_d$ to achieve an overshoot of 19% and a settling time of 2.99s.
+2. **PD Controller Design:** Tuned $K_p$ and $K_d$ to achieve the specified overshoot and settling time.
 3. **PI/PID Integration:** Implemented derivative action to reduce overshoot by half while maintaining the settling time, compensating for delays using a 2nd-order Padé approximation.
 
 ## 📊 Results
