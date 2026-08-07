@@ -13,8 +13,7 @@ This project focuses on the analysis and design of feedback control systems usin
 3. **PI/PID Integration:** Implemented derivative action to reduce overshoot by half while maintaining the settling time, compensating for delays using a 2nd-order Padé approximation.
 
 ## 📊 Results
-*Include an image of the final PID step response here comparing it to the reference model.*
-![Step Response Comparison](./images/step_response.png)
+![Step Response with PID controller and Padé approximation](images/09_Step_Response_PID_Pade.png)
 
 ## 💻 How to Run
 1. Clone this repository.
