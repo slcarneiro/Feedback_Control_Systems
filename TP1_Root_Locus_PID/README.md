@@ -18,4 +18,6 @@ This project focuses on the analysis and design of feedback control systems usin
 ## 💻 How to Run
 1. Clone this repository.
 2. Open the `src/` folder in MATLAB.
-3. Run `main_analysis.m` to generate the Root Locus plots and Step Responses.
+3. Run `main_analysis.mlx` to generate the Root Locus plots and Step Responses.
+
+* **NOTE:** The number $I=29$ was chosen by my professor for this specific exercise, and changing it might cause unexpected results. I recommend keeping $29$ if you want to run the code, or you can use it as a reference/inspiration.
