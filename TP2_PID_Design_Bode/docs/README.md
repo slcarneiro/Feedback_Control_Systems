@@ -1,0 +1,1 @@
+**NOTE:** Sketch 02 is incomplete because it only represents the interval $0 < \omega < \infty$. It is worth mentioning that this is a conceptual sketch to analyze the system's behavior. **If** a complete plot is desired, it is necessary to include the interval $-\infty < \omega < \infty$.
