@@ -30,6 +30,16 @@ This repository contains a comprehensive frequency-domain analysis and control d
 * The derivative zero addition created a $-90^\circ$ high-frequency asymptote, resulting in an infinite Gain Margin and a Phase Margin of $\approx 90^\circ$.
 * **Final Performance:** The closed-loop step response achieved **$0\%$ Overshoot** and a settling time of **$1.29$ s**, fully satisfying the project constraints with high robustness.
 
+## 📊 Visual Results
+
+Below is the frequency-domain comparison showing the uncompensated plant ($G_2$), the PI-compensated system, and the final PID-compensated system. Notice how the PID controller shifts the phase asymptote to $-90^\circ$, ensuring infinite Gain Margin.
+
+![Bode Plot Comparison - G2, PI, PID](./images/14_PI_PID_Bode_Diagram_G2.png)
+
+The time-domain validation confirms the success of the frequency-domain design, showing a critically damped step response with exactly $0\%$ overshoot and zero steady-state error.
+
+![PID Step Response](./images/15_PID_Final_Step_Response_G2.png)
+
 ## 💻 How to Run
 1. Clone this repository.
 2. Open the `src/` directory in MATLAB.
